@@ -9,6 +9,6 @@ public class DataInputManager : MonoBehaviour
     
     public void ShowGreetings()
     {
-        Debug.Log("Hola " + txtUserInput.text);
+        Debug.Log(int.Parse(txtUserInput.text) * 2);
     }
 }
